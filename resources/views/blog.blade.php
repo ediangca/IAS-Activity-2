@@ -11,6 +11,7 @@
 
     </head>
     <body class="bg-dark">
+      
         <!-- NAVBAR -->
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
           <div class="container-fluid">
@@ -44,9 +45,9 @@
         <!-- CONTENT -->
        <div class="container  text-center" style="padding: 200px 0 0 0; ">
 
-            <h1>THIS IS ABOUT US PAGE</h1>
-                
-            <a href="\home" type="button" class="btn btn-success">HOME</a>
+       <h1>THIS IS ABOUT US PAGE</h1>
+            
+        <a href="\home" type="button" class="btn btn-success">HOME</a>
        </div>
     </body>
 </html>

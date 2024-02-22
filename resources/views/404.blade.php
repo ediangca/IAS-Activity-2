@@ -6,11 +6,12 @@
         
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-        <title>Activity 2</title>
+        <title>Activity 2 - HOME</title>
 
 
     </head>
     <body class="bg-dark">
+
         <!-- NAVBAR -->
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
           <div class="container-fluid">
@@ -42,11 +43,15 @@
         </nav>
 
         <!-- CONTENT -->
-       <div class="container  text-center" style="padding: 200px 0 0 0; ">
-
-            <h1>THIS IS ABOUT US PAGE</h1>
-                
-            <a href="\home" type="button" class="btn btn-success">HOME</a>
+        <div class="container" style="padding: 200px 0 0 0;">
+          <div class="row">
+              <div class="col">
+                <h1 class="text-center text-white">ACCOUNT NOT FOUND</h1>
+              </div>
+          </div>
        </div>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>

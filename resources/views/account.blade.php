@@ -6,7 +6,7 @@
         
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-        <title>Activity 2</title>
+        <title>Activity 2 - HOME</title>
 
 
     </head>
@@ -42,11 +42,10 @@
         </nav>
 
         <!-- CONTENT -->
-       <div class="container  text-center" style="padding: 200px 0 0 0; ">
-
-            <h1>THIS IS ABOUT US PAGE</h1>
-                
-            <a href="\home" type="button" class="btn btn-success">HOME</a>
+       <div class="container">
+          <h1 class="text-center">
+              WELCOME TO ACCOUNT PAGE
+          </h1>
        </div>
     </body>
 </html>

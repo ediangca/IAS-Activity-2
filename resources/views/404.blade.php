@@ -6,12 +6,12 @@
         
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
         <title>Activity 2 - HOME</title>
 
 
     </head>
     <body class="bg-dark">
-
         <!-- NAVBAR -->
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
           <div class="container-fluid">
@@ -27,8 +27,16 @@
                 <li class="nav-item">
                   <a class="nav-link"  href="/aboutus">About Us</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link"  href="/services">Services</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Services
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/service1">Service 1</a></li>
+                    <li><a class="dropdown-item" href="/service2">Service 2</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="/service3">Service 3</a></li>
+                  </ul>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link"  href="/contactus">Contact Us</a>

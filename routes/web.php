@@ -50,3 +50,15 @@ Route::name('dashboard.')->group(function () {
        return view("account");
     })->name('user');
 });
+
+Route::name('services.')->group(function () {
+    Route::get('/service1', function () {
+       return view("service1");
+    })->name('service1');
+    Route::get('/service2', function () {
+       return view("service2");
+    })->name('service2');
+    Route::get('/service3', function () {
+       return view("service3");
+    })->name('service3');
+});
